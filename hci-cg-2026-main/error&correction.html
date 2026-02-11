@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Common HTML Errors – HCI Learning</title>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Common HTML Errors</h1>
+    <p>Learning from realistic mistakes using principles from Dix et al., HCI</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Primary navigation">
+    <ul>
+       <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
+      <li><a href="comparison.html">HCI Model Comparison</a></li>
+      <li><a href="error&correction.html">HTML Errors & Correction</a></li>
+      <li><a href="model.html">Worked Examples / Model</a></li>
+      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <section>
+      <h2>Examples of HTML Errors and Fixes</h2>
+
+      <ul>
+        <li>
+          <strong>Error:</strong> Links outside of &lt;li&gt; in a list.<br>
+          <strong>Fix:</strong> Place links inside &lt;li&gt; elements.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Skipped heading levels (e.g., h1 → h3).<br>
+          <strong>Fix:</strong> Use proper heading hierarchy (h1 → h2 → h3).
+        </li>
+
+        <li>
+          <strong>Error:</strong> Label not associated with input.<br>
+          <strong>Fix:</strong> Use matching <code>for</code> and <code>id</code> attributes.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Image missing <code>alt</code> text.<br>
+          <strong>Fix:</strong> Always include descriptive <code>alt</code>.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Multiple <code>aria-current="page"</code> in navigation.<br>
+          <strong>Fix:</strong> Only one current page link should have this attribute.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Table missing caption or <code>thead</code>.<br>
+          <strong>Fix:</strong> Always provide a caption and header cells with scope.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Using &lt;div&gt; instead of semantic sections.<br>
+          <strong>Fix:</strong> Use &lt;section&gt; or &lt;article&gt; to organize content.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Empty link text.<br>
+          <strong>Fix:</strong> Always provide meaningful text inside <a> elements.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Inline style clutter (e.g., <code>style="..."</code>).<br>
+          <strong>Fix:</strong> Use CSS classes or external stylesheets.
+        </li>
+
+        <li>
+          <strong>Error:</strong> Missing <code>lang</code> attribute on &lt;html&gt;.<br>
+          <strong>Fix:</strong> Always declare <code>lang="en"</code> or appropriate language.
+        </li>
+      </ul>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HCI Models – Norman vs GOMS vs KLM</title>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>HCI Models: Norman, GOMS, and KLM</h1>
+    <p>Visual and conceptual comparison using Dix et al., HCI (Ch. 9 & 12)</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Primary navigation">
+    <ul>
+   <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
+      <li><a href="comparison.html">HCI Model Comparison</a></li>
+      <li><a href="error&correction.html">HTML Errors & Correction</a></li>
+      <li><a href="model.html">Worked Examples / Model</a></li>
+      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <section>
+      <h2>Visual Comparison</h2>
+
+      <!-- Diagram included -->
+      <img src="diagram.jpg" alt="Diagram comparing Norman, GOMS, and KLM models">
+
+      <p>
+        This diagram summarizes three HCI models:
+        <strong>Norman</strong> focuses on cognition, errors, and feedback.
+        <strong>GOMS</strong> analyzes goals, operators, methods, and selection rules for expert users.
+        <strong>KLM</strong> predicts execution time for low-level actions using seven operators: K, P, H, B, D, M, R.
+        <br><br>
+        Overlaps show similarities:
+        • Execution-level actions (GOMS ↔ KLM)
+        • Cognitive planning (Norman ↔ GOMS)
+      </p>
+    </section>
+    <section>
+  <h2>Example: Automatic Syringe</h2>
+
+  <p><strong>Quick fixes:</strong> You should expect to spend both time and money on interface design, just as you would with other parts of a system. In one sense, there are no quick fixes. However, a few simple steps can make a dramatic improvement.</p>
+
+  <p><strong>Think 'user':</strong> About 90% of the value of any interface design technique is that it forces the designer to remember that someone else will use the system under construction.</p>
+
+  <p><strong>Try it out:</strong> Many designers build a system they find easy and pleasant, and are surprised anyone else could have trouble. Simply having someone use an early interface version (without the designer guiding them) is extremely valuable. Professional usability labs may use video equipment or one-way mirrors, but even a notebook, pencil, or home video camera is sufficient.</p>
+
+  <p><strong>Involve the users:</strong> Where possible, involve eventual users in the design process. They have vital knowledge and will find flaws quickly. For example, during development of a mechanical syringe, hospital staff testing a prototype quickly noticed a potentially fatal flaw in its interface.</p>
+
+  <figure>
+    <img src="syringe.jpg" alt="Automatic syringe interface showing dose setting">
+    <figcaption>
+      Figure: Automatic syringe – setting the dose to 1372. Accidental keypresses before user testing could lead to incorrect doses. After consulting users, increment/decrement buttons for each digit were added.
+    </figcaption>
+  </figure>
+
+  <p><strong>Iterate:</strong> People are complicated, so you won’t get the interface right the first time. Programming an interface can be time-consuming, and designers may resist changes. Early prototypes should be easy to discard. Tools like HyperCard or Visual Basic allow quick mockups. Paper designs and simple models can be used for visual and layout decisions.</p>
+</section>
+<section>
+  <h3>Connection to HCI Models</h3>
+  <ul>
+    <li><strong>Norman (1988):</strong> Shows cognitive errors and feedback issues. The numeric keypad risk and redesign illustrate how visibility, feedback, and error prevention reduce mistakes (Gulf of Execution/Evaluation).</li>
+    <li><strong>GOMS (1983):</strong> Breaks the dose-setting task into Goals, Operators, Methods, and Selection rules. Users selecting digits and adjusting buttons can be analyzed as task sequences with alternative methods.</li>
+    <li><strong>KLM:</strong> Predicts execution time for low-level actions: pointing to buttons, pressing increment/decrement, and confirming doses. Each physical action can be mapped to KLM operators (P, K, H, M).</li>
+  </ul>
+</section>
+
+    <section>
+      <h3>Reference</h3>
+      <p>
+        Dix, A., Finlay, J., Abowd, G., & Beale, R. (2004). 
+        <em>Human–Computer Interaction</em> (3rd ed.), Chapters 9 & 12 and lecture.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>

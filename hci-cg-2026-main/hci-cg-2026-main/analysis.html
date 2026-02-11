@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interaction Analysis – Norman vs. GOMS</title>
+
+  <style>
+    /* Minimal Lab 01 styling: only background-color allowed */
+    .norman-match { background-color: #fff3cd; } /* warm amber for Norman steps */
+    .goms-match   { background-color: #e7f3ff; } /* light blue for GOMS correspondence */
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Interaction Analysis</h1>
+    <p>Comparing Norman’s Action Cycle with GOMS (Dix et al., Ch. 12)</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Primary navigation">
+    <ul>
+   <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
+      <li><a href="comparison.html">HCI Model Comparison</a></li>
+      <li><a href="error&correction.html">HTML Errors & Correction</a></li>
+      <li><a href="model.html">Worked Examples / Model</a></li>
+      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <section>
+      <h2>Norman vs. GOMS – Conceptual Comparison</h2>
+
+      <table border="1">
+        <caption>Comparison of Norman’s cognitive stages with GOMS components</caption>
+        <thead>
+          <tr>
+            <th scope="col">Norman Stage</th>
+            <th scope="col">Description (Book Example)</th>
+            <th scope="col">GOMS Equivalent</th>
+            <th scope="col">Notes / Alignment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="norman-match">
+            <th scope="row">Forming Goal</th>
+            <td>User decides what they want to accomplish (e.g., “Send email”).</td>
+            <td>Goal</td>
+            <td>High-level intention corresponds directly to GOMS “Goal”.</td>
+          </tr>
+
+          <tr class="norman-match">
+            <th scope="row">Forming Intention</th>
+            <td>Planning the steps needed to reach the goal (e.g., open mail client).</td>
+            <td>Method & Selection Rules</td>
+            <td>Norman’s plan maps to GOMS method; choice between alternatives captured by selection rules.</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Specifying Action</th>
+            <td>Deciding what exact action to perform (e.g., click “Compose”).</td>
+            <td>Operator (partially)</td>
+            <td>GOMS abstracts this step; execution-level detail may appear in KLM as [M] or [K].</td>
+          </tr>
+
+          <tr class="goms-match">
+            <th scope="row">Executing Action</th>
+            <td>User performs physical actions (mouse click, key press).</td>
+            <td>Operator</td>
+            <td>Direct mapping; KLM further predicts timing of these operators.</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Perceiving / Evaluating Outcome</th>
+            <td>User interprets system feedback and evaluates success (e.g., “Email sent?”).</td>
+            <td>Not explicitly modeled in GOMS</td>
+            <td>Norman emphasizes feedback and Gulf of Evaluation; GOMS assumes correct execution without error checking.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        This table shows that Norman’s model focuses on <strong>cognitive understanding, planning, and evaluation</strong>, while GOMS focuses on <strong>predictable, expert-level task sequences</strong>. KLM (covered separately) models <strong>execution timing</strong> for physical operators.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
+<!-- Reference Section -->
+<section>
+  <h3>Reference</h3>
+  <p>
+    Dix, Finlay, Abowd & Beale, <em>Human–Computer Interaction</em>, 3rd edition, Chapters 9 & 12, pp. 346–355, 431–437.
+  </p>
+</section>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison</title>
+
+  <style>
+    body { font-family: Arial, sans-serif; }
+
+    /* Highlight rows by model */
+    .norman { background-color: #fff3cd; }  /* amber */
+    .goms  { background-color: #e7f3ff; }  /* light blue */
+    .klm   { background-color: #e9f7ef; }  /* light green */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Comparison</h1>
+    <p>Meta-evaluation: how Norman, GOMS, and KLM apply to our Lab 01 website</p>
+  </header>
+
+  <nav aria-label="Primary navigation">
+    <ul>
+   <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="analysis.html">Interaction Analysis</a></li>
+      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
+      <li><a href="comparison.html">HCI Model Comparison</a></li>
+      <li><a href="error&correction.html">HTML Errors & Correction</a></li>
+      <li><a href="model.html">Worked Examples / Model</a></li>
+      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Overview</h2>
+      <p>
+        This table evaluates our Lab 01 website using Norman’s Action Cycle, GOMS model, and KLM operators.
+        Each model highlights different aspects of user interaction and website usability.
+      </p>
+    </section>
+
+    <section>
+      <h2>Comparison Table</h2>
+      <table border="1">
+        <caption>How Norman, GOMS, and KLM apply to our website</caption>
+        <thead>
+          <tr>
+            <th scope="col">Model</th>
+            <th scope="col">Focus</th>
+            <th scope="col">Application to Website</th>
+            <th scope="col">Observations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="norman">
+            <th scope="row">Norman</th>
+            <td>Cognitive / Descriptive</td>
+            <td>
+              - Header clearly identifies site (goal recognition)<br>
+              - Navigation menus signal destinations (mapping & affordances)<br>
+              - Forms provide clear labels (user understands actions)<br>
+              - Feedback is given via tables and link structure
+            </td>
+            <td>
+              Strength: Explains mental model & user understanding<br>
+              Weakness: Does not predict performance time
+            </td>
+          </tr>
+
+          <tr class="goms">
+            <th scope="row">GOMS</th>
+            <td>Predictive / Analytic</td>
+            <td>
+              - Tasks like navigating to Contact page or filling a form can be decomposed<br>
+              - Each task has goal → method → selection rules → operators<br>
+              - E.g., Goal: submit message → Method: fill fields → Operator: type text → Selection rule: choose which page first
+            </td>
+            <td>
+              Strength: Shows efficiency & structure of expert behavior<br>
+              Weakness: Ignores cognitive feedback & interpretation
+            </td>
+          </tr>
+
+          <tr class="klm">
+            <th scope="row">KLM</th>
+            <td>Execution-level / Quantitative</td>
+            <td>
+              - Execution of primitive actions can be timed:<br>
+                • [K] Typing in forms<br>
+                • [P] Pointing mouse or tapping links<br>
+                • [M] Mental preparation before choosing a link<br>
+                • [R] Waiting for page load
+            </td>
+            <td>
+              Strength: Predicts task duration for expert, error-free users<br>
+              Weakness: Does not include high-level planning or errors
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        By comparing all three models on our Lab 01 website:
+      </p>
+      <ul>
+        <li><strong>Norman:</strong> Explains mental processes and usability perception.</li>
+        <li><strong>GOMS:</strong> Shows task decomposition and efficiency for expert users.</li>
+        <li><strong>KLM:</strong> Predicts execution times for interactions.</li>
+      </ul>
+      <p>
+        Together, these models give a full picture: understanding, structure, and timing of user interactions.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
+      <!-- Reference -->
+      <section>
+        <h3>Reference</h3>
+        <p>
+          Dix, A., Finlay, J., Abowd, G. D., & Beale, R. (2004). 
+          <em>Human–Computer Interaction</em> (3rd ed.), 
+          Chapters 9 &amp; 12, pp. 346–355, 431–438.
+        </p>
+      </section>
